@@ -17,7 +17,7 @@
 
 [user]
 	name = Aaron Botnick
-	email = aaron.botnick@roguewave.com
+	email = "(none)"
 
 [alias]
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
