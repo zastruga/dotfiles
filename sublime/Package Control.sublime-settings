@@ -1,0 +1,28 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Decent Color Scheme",
+		"Git",
+		"Git-StatusBar",
+		"GitGutter",
+		"Markdown Preview",
+		"Package Control",
+		"Rails Migrations List",
+		"Rails Status Snippets",
+		"RailsCasts Colour Scheme",
+		"Railscasts Extended",
+		"Ruby Block Converter",
+		"Ruby Debugger",
+		"Ruby on Rails snippets",
+		"RubyEval",
+		"RubyTest",
+		"SelectionRubyEval",
+		"SublimeREPL",
+		"Terminal",
+		"TrailingSpaces"
+	]
+}

@@ -1,0 +1,30 @@
+[core]
+	excludesfile = /Users/aaron.botnick/.gitignore_global
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+
+[mergetool "sourcetree"]
+	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
+
+[mergetool]
+  cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+
+[color]
+	ui = true
+
+[user]
+	name = Aaron Botnick
+	email = aaron.botnick@roguewave.com
+
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	co = checkout
+	cm = commit -m
+	br = branch
+	st = status
+	dns = diff --ignore-space-change
+[push]
+	default = simple
