@@ -1,12 +1,11 @@
 [core]
-	excludesfile = /Users/aaron.botnick/.gitignore_global
+	excludesfile = ~/.gitignore_global
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 
 [mergetool "sourcetree"]
-	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
 
 [mergetool]
