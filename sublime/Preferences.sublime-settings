@@ -1,31 +1,38 @@
 {
-    "font_size": 12,
-	"tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "use_tab_stops": true,
-    "detect_indentation": true,
-    "auto_indent": true,
-    "smart_indent": true,
-    "indent_to_bracket": true,
-    "trim_automatic_white_space": true,
-	"rulers": [120],
+	"auto_indent": true,
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Railscasts Extended/Railscasts Extended.tmTheme",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-    "show_full_path": true,
-    "preview_on_click": true,
-    "highlight_line": true,
-    "scroll_past_end": true,
-    "indent_guide_options": ["draw_active"],
-    "trim_trailing_white_space_on_save": true,
-    "highlight_modified_tabs": true,
-    "bold_folder_labels": true,
-    "show_encoding": true,
-    "show_line_endings": true,
-    "use_simple_full_screen": false,
-    "hot_exit": true,
-    "remember_full_screen": true,
-    "find_selected_text": true,
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"preview_on_click": true,
+	"remember_full_screen": true,
+	"rulers":
+	[
+		120
+	],
+	"scroll_past_end": true,
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"smart_indent": true,
+	"tab_size": 4,
+	"trailing_spaces_modified_lines_only": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"use_simple_full_screen": false,
+	"use_tab_stops": true
 }
