@@ -16,13 +16,16 @@ call vundle#begin()
   Plugin 'honza/vim-snippets'
   Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
   Plugin 'tpope/vim-fugitive'
+  Plugin 'rking/ag.vim'
+  Plugin 'jpo/vim-railscasts-theme'
 call vundle#end()
 filetype plugin indent on
 
 """"""""""""""""""""""
 """""" SETTINGS """"""
 """"""""""""""""""""""
-colorscheme Tomorrow-Night-Bright
+"colorscheme Tomorrow-Night-Bright
+colorscheme railscasts
 set background=dark
 
 " Tabs
@@ -34,6 +37,7 @@ set list listchars=tab:»·,trail:· " Display extra whitespace
 
 " Other settings
 syntax on "Enables syntax highlighting
+runtime macros/matchit.vim  "Enable matching code blocks
 set number "Shows lines numbers
 set cursorline "Highlights current line under cursor
 set ruler
@@ -47,7 +51,6 @@ set ttyfast "Force terminal to assume a fast connection
 set t_Co=256
 set splitbelow
 set splitright
-set re=1 " Use old regex engine, ruby syntax regexes were lagging
 set hlsearch
 
 " Powerline Settings
@@ -71,10 +74,3 @@ nnoremap <Leader>pb :CtrlPBuffer<cr>
 " Tags
 nnoremap <Leader>]i :!ctags -R .<CR> " Index ctags from any project, including those outside Rails
 nnoremap <Leader>]v :vsp <CR>:exec("tag ".expand("<cword>"))<CR> " open tag definition in new vsplit window
-
-" Window movement
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
-nnoremap <C-\> <C-W><bar>
