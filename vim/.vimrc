@@ -18,6 +18,7 @@ call vundle#begin()
   Plugin 'tpope/vim-fugitive'
   Plugin 'rking/ag.vim'
   Plugin 'jpo/vim-railscasts-theme'
+  Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 call vundle#end()
 filetype plugin indent on
 
@@ -38,6 +39,7 @@ set list listchars=tab:»·,trail:· " Display extra whitespace
 " Other settings
 syntax on "Enables syntax highlighting
 runtime macros/matchit.vim  "Enable matching code blocks
+set nowrap
 set number "Shows lines numbers
 set cursorline "Highlights current line under cursor
 set ruler
@@ -74,3 +76,4 @@ nnoremap <Leader>pb :CtrlPBuffer<cr>
 " Tags
 nnoremap <Leader>]i :!ctags -R .<CR> " Index ctags from any project, including those outside Rails
 nnoremap <Leader>]v :vsp <CR>:exec("tag ".expand("<cword>"))<CR> " open tag definition in new vsplit window
+
