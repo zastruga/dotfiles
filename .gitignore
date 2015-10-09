@@ -1,0 +1,6 @@
+Package*.last-run
+Package*.ca-list
+Package*.ca-bundle
+Package*.sytem-ca-bundle
+Package*.cache
+Package*.ca-certs
