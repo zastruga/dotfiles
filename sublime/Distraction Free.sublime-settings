@@ -1,8 +1,9 @@
 {
-    "margin": 100,
+    //"margin": 100,
     "draw_centered": false,
     "wrap_width": 0,
     "line_numbers": true,
     "gutter": true,
-    "font_size": 14,
+    "font_face": "Source Code Pro for Powerline",
+    "font_size": 12,
 }
