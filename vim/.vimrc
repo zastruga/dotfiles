@@ -36,10 +36,11 @@ set shiftround
 set expandtab "Uses spaces instead of tabs
 set list listchars=tab:»·,trail:· " Display extra whitespace
 
-" Tabs by filetype
+" Autodetect tab spacing by filetype
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
-autocmd Filetype javascript setlocal ts=4 sw=4 expandtab
+autocmd Filetype python setlocal ts=4 sw=4 expandtab
+autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 
 " Other settings
 syntax on "Enables syntax highlighting
