@@ -3,7 +3,8 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
   Plugin 'gmarik/Vundle.vim'
-  Plugin 'kien/ctrlp.vim'
+"  Plugin 'kien/ctrlp.vim'
+  Plugin 'ctrlpvim/ctrlp.vim'
   Plugin 'tpope/vim-rails'
   Plugin 'kchmck/vim-coffee-script'
   Plugin 'scrooloose/nerdtree'
