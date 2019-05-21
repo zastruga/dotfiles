@@ -3,7 +3,6 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
   Plugin 'gmarik/Vundle.vim'
-"  Plugin 'kien/ctrlp.vim'
   Plugin 'ctrlpvim/ctrlp.vim'
   Plugin 'tpope/vim-rails'
   Plugin 'kchmck/vim-coffee-script'
@@ -15,10 +14,12 @@ call vundle#begin()
   Plugin 'chriskempson/vim-tomorrow-theme'
   Plugin 'SirVer/ultisnips'
   Plugin 'honza/vim-snippets'
-  Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+  Plugin 'vim-airline/vim-airline'
+  Plugin 'vim-airline/vim-airline-themes'
   Plugin 'tpope/vim-fugitive'
   Plugin 'rking/ag.vim'
   Plugin 'jpo/vim-railscasts-theme'
+  Plugin 'NLKNguyen/papercolor-theme'
   Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 call vundle#end()
 filetype plugin indent on
@@ -27,8 +28,17 @@ filetype plugin indent on
 """""" SETTINGS """"""
 """"""""""""""""""""""
 "colorscheme Tomorrow-Night-Bright
-colorscheme railscasts
-set background=dark
+"colorscheme railscasts
+"set background=dark
+
+" PaperColor Settings
+set t_Co=256
+set background=light
+colorscheme PaperColor
+
+" Airline Settings
+let g:airline_theme='papercolor'
+let g:airline_powerline_fonts = 1
 
 " Tabs
 set tabstop=2 "Sets indents to 2 spaces
@@ -61,15 +71,6 @@ set t_Co=256
 set splitbelow
 set splitright
 set hlsearch
-
-" Powerline Settings
-set guifont=Inconsolata\ for\ Powerline:h15
-let g:Powerline_symbols = 'fancy'
-set encoding=utf-8
-set t_Co=256
-set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
-set termencoding=utf-8
 
 """"""""""""""""""""""
 """""" MAPPINGS """"""

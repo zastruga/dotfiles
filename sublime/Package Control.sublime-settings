@@ -6,9 +6,11 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"AutoPEP8",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Decent Color Scheme",
+		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GitDiffHelper",
 		"GitGutter",

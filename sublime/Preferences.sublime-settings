@@ -6,12 +6,14 @@
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
 	"font_face": "Inconsolata for Powerline",
-	"font_size": 15,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"Decent Color Scheme",
+		"RubyTest",
 		"Vintage"
 	],
 	"indent_guide_options":
