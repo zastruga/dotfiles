@@ -29,6 +29,12 @@
 		"RubyEval",
 		"RubyTest",
 		"SelectionRubyEval",
+		"SqlBeautifier",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-json",
+		"SublimeLinter-pycodestyle",
 		"SublimeREPL",
 		"Terminal",
 		"TrailingSpaces"
