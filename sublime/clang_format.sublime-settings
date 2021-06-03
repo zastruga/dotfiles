@@ -1,0 +1,6 @@
+{
+	"binary": "clang-format-6.0",
+	"style": "Custom",
+    "format_on_save": true,
+    "languages": ["C", "C++", "C++11"]
+}

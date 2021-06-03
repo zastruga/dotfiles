@@ -1,0 +1,14 @@
+{
+    "BasedOnStyle": "LLVM",
+    "IndentWidth": 4,
+    "TabWidth": 4,
+    "UseTab": "ForIndentation",
+    "BreakBeforeBraces": "Linux",
+    "IndentCaseLabels": false,
+
+    "BinPackArguments": false,
+    "BinPackParameters": false,
+
+    "PenaltyReturnTypeOnItsOwnLine": 0,
+    "AlignTrailingComments": true
+}
